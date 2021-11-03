@@ -14,7 +14,7 @@ class TV :
         return self.canal    
             
     def setCanal(self, canal):
-        if((canal >= 1) and (canal<= 120) and (self.estado == True)):
+        if((canal >= 1 and canal<= 120) and (self.estado == True)):
             self.canal = canal 
                 
     def getMarca(self):
@@ -39,7 +39,7 @@ class TV :
         return self.volumen
 
     def setVolumen(self,volumen):
-        if((volumen>= 0) and (volumen<= 7) and (self.estado == True)):
+        if((volumen>= 0 and volumen<= 7) and (self.estado == True)):
             self.volumen = volumen
 
     @classmethod    
