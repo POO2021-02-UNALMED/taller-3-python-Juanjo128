@@ -8,22 +8,22 @@ class Control:
             self.tv.setControl(self)
 
         def turnOn(self):
-            self.tv.turnOn
+            self.tv.turnOn()
 
         def turnOff(self):
-            self.tv.turnOff
+            self.tv.turnOff()
 
         def canalUp(self):
-            self.tv.canalUp
+            self.tv.canalUp()
 
         def canaldown(self):
-            self.tv.canalDown
+            self.tv.canalDown()
 
         def volumenUp(self):
-            self.tv.volumenUp
+            self.tv.volumenUp()
 
         def volumenDown(self):
-            self.tv.volumenDown
+            self.tv.volumenDown()
 
         def setCanal(self, num):
             self.tv.setCanal(num)
