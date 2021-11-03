@@ -3,9 +3,7 @@ class Control:
     def __init__(self):
         self.tv = None
 
-    def enlazar(self, tv):
-        self.tv = tv
-        self.tv.setControl(self)
+
 
     def turnOn(self):
         self.tv.turnOn()
@@ -28,8 +26,14 @@ class Control:
     def setCanal(self, num):
         self.tv.setCanal(num)
 
+    def enlazar(self, tv):
+        self.tv = tv
+        self.tv.setControl(self)      
+
     def getTv(self):
         return self.tv
 
     def setTv(self, tv):
-        self.tv = tv    
+        self.tv = tv  
+    
+    
