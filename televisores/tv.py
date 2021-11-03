@@ -43,10 +43,11 @@ class TV :
         def setVolumen(self,volumen):
             if(volumen>= 0 and volumen<= 7 and estado == True):
                 self.volumen = volumen
-             
+
+        @classmethod    
         def getNumTV(self):
             return TV.numTV
-
+        @classmethod    
         def setNumTV(self,num):
             TV.NumTV= num
 
