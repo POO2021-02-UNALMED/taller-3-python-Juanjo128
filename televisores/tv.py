@@ -13,9 +13,9 @@ class TV :
     def getCanal(self):
         return self.canal    
             
-    def setCanal(self, canal):
-        if((canal >= 1 and canal<= 120) and (self.estado == True)):
-            self.canal = canal 
+    def setCanal(self,canal):
+        if ((self.estado==True) and (canal>=1 and canal<=120)):
+            self._canal=canal
                 
     def getMarca(self):
         return self.marca
