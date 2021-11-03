@@ -45,10 +45,10 @@ class TV :
                 self.volumen = volumen
 
         @classmethod    
-        def getNumTV(self):
+        def getNumTV(cls):
             return TV.numTV
         @classmethod    
-        def setNumTV(self,num):
+        def setNumTV(cls,num):
             TV.NumTV= num
 
         def turnOn(self):
