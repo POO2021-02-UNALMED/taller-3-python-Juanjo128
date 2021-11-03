@@ -7,7 +7,7 @@ class TV :
         self.precio = 500
         self.estado = self.marca
         self.volumen = 1
-        self.control
+        self.control = None
         self.marca = marca
         self.estado = estado
         TV.numTV += 1
