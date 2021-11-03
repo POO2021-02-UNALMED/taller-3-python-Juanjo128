@@ -41,7 +41,7 @@ class TV :
         return self.volumen
 
     def setVolumen(self,volumen):
-        if(volumen>= 0 and volumen<= 7 and estado == True):
+        if(volumen>= 0 and volumen<= 7 and self.estado == True):
             self.volumen = volumen
 
     @classmethod    
